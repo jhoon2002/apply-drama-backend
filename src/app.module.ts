@@ -10,7 +10,7 @@ import { MysqlConfigModule } from '@/mysql-config/mysql-config.module'
     imports: [
         ConfigModule.forRoot({
             isGlobal: true,
-            envFilePath: process.env.NODE_ENV === 'dev' ? '../.development.env' : '../.productionY.env',
+            envFilePath: '../.production.env',
         }),
         TypeOrmModule.forRootAsync({
             imports: [MysqlConfigModule],
