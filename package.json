@@ -2,7 +2,7 @@
     "name": "backend",
     "version": "0.0.1",
     "description": "",
-    "author": "",
+    "author": "Yeo <jhoon2002@naver.com>",
     "private": true,
     "license": "UNLICENSED",
     "main": "dist/index.js",
